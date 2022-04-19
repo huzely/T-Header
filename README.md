@@ -1,7 +1,7 @@
 # T-Header script
 This Bash script contains Oh-My-Zsh With, command autosuggestion, syntax highlight plugins and terminal header with own name for TERMUX. 
 ## Preview of after setup completed..
-<img src="https://postimg.cc/8FsWnmm8" width="200" hight="220">
+<img src="https://i.postimg.cc/BvBgbh8v/d8aba7722fe1e1bfb8f0.jpg" width="200" hight="220">
 
 ## This script contains popular features
 
