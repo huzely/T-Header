@@ -96,7 +96,7 @@ tput sgr 0
 if [ ${#PROC} -gt 8 ]; then
 	echo -e "\e[1;34m[*] \033[32mTên Quá Dài...Biết Đọc Chữ Không Mày...\033[0m"
 	echo ""
-	echo -e "\033[32mNhập tên từ 6 kí tự trở xuống, têm dài quá éo được đâu ok :))\033[0m" | pv -qL 10;
+	echo -e "\033[32mNhập Banner từ 9 kí tự trở xuống, têm dài quá éo được đâu ok :))\033[0m" | pv -qL 10;
 	echo ""
 	sleep 4
 	clear
@@ -105,7 +105,7 @@ Termux Header
 
 	
 +---------------------------*/
-.......Hiếu PC-Tools......
+ .......Hiếu PC-Tools......
 +---------------------------*/
 oh-my-zsh users only....
 \033[0m";
@@ -124,9 +124,9 @@ echo ;
 #figlet -f ASCII-Shadow "$PROC" | lolcat;
 bash ~/T-Header/.banner.sh ${col} ${TNAME}
 echo "";
-#echo -e '\e[0;35m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[00m';
-#echo -e '\033[1;43;30m### SUBSCRIBE MY YOUTUBE CHANNEL ### \033[0m';
-#echo -e '\e[0;35m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[00m';
+#echo -e '\e[0;35m+---------------------------*\e[00m';
+#echo -e '\033[1;43;30m .......Hiếu PC-Tools...... \033[0m';
+#echo -e '\e[0;35m+---------------------------*\e[00m';
 echo "";
 echo -e "
 \033[0;31m┌─[\033[1;34m$TNAME\033[1;33m👉\033[1;36mPC-Tools\033[0;31m]─[\033[0;32m~${PWD/#"$HOME"}\033[0;31m]
@@ -225,7 +225,7 @@ if [ -d $HOME/.oh-my-zsh ]; then
 elif [ -d $HOME/.zsh ]; then
 	(rm -rf $HOME/.zsh) &> /dev/null
 else
-	echo -e "\e[1;34m[*] \e[32mĐéo có oh-my-zsh...\e[0m";
+	echo -e "\e[1;34m[*] \e[32mĐang cài oh-my-zsh...\e[0m";
 fi
 while [ $ozsh = 0 ];
 do
